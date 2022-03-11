@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  html {
+    margin: 10px;
+  }
+  #conteneur {
+    margin: 0;
+    width: 100%;
+  }
+  .menu_nav {
+    width: 100%;
+  }
+  #filtres {
+    width: 100%;
+  }
+  /* HEBERGEMENT */
+  #populaire {
+    width: 100%;
+    border-radius: 0px;
+  }
+  #vignettes {
+    width: 95%;
+  }
+  .bloc1,
+  .bloc2.bloc3,
+  .bloc4.bloc5,
+  .bloc6 {
+    width: 95%;
+  }
+  .bloc2,
+  .bloc5 {
+    margin: 5px;
+  }
+
+  .bloc7,
+  .bloc8,
+  .bloc9 {
+    width: 91%;
+    margin-left: 10px;
+  }
+  .image7,
+  .image8,
+  .image9 {
+    width: 120px;
+  }
+  .photo7,
+  .photo8,
+  .photo9 {
+    width: 70%;
+  }
+  .label7 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .label9 {
+    padding-left: 6px;
+  }
+  .serie8 {
+    justify-content: space-between;
+  }
+  .onglet_label9 {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .onglet_etoile {
+    margin-top: 20px;
+  }
+  .ligne1,
+  .ligne2 {
+    flex-direction: column;
+    margin: 0px;
+    margin-bottom: 0px;
+  }
+  .bloc1,
+  .bloc2,
+  .bloc3,
+  .bloc4,
+  .bloc5,
+  .bloc6 {
+    width: 100%;
+  }
+  .plus {
+    margin: 25px;
+  }
+  /* ACTIVITES */
+  #activites {
+    flex-direction: column;
+  }
+  .titre_activites {
+    margin-left: 25px;
+  }
+  .ligne3 {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .ligne4 {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .serie10,
+  .serie11,
+  .serie12,
+  .serie13,
+  .serie14,
+  .serie15 {
+    width: 90%;
+    height: 160px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px #f2f2f2;
+  }
+  .photo10,
+  .photo11,
+  .photo12,
+  .photo13,
+  .photo14,
+  .photo15 {
+    height: 120px;
+    width: 100%;
+  }
+  .colonne2,
+  .colonne3 {
+    padding: 0px;
+  }
+  .legende {
+    margin: 5px;
+    margin-left: 20px;
+  }
+  /* FOOTER */
+  #mentions {
+    flex-direction: column;
+  }
+}

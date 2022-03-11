@@ -1,0 +1,426 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin: 30px;
+}
+body {
+  margin: 0;
+}
+#conteneur {
+  width: 100%;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*NAVIGATION*/
+.nav {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+.menu {
+  padding: 20px 30px 30px 20px;
+}
+.listnav {
+  list-style-type: none;
+  text-align: center;
+  width: 175px;
+}
+.listnav :hover {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+}
+img {
+  width: 100px;
+}
+/*BARRE DE RECHERCHE*/
+
+.barre_recherche {
+  margin-top: 15px;
+}
+.barre {
+  width: 30%;
+  position: relative;
+  display: flex;
+}
+.recherche {
+  width: 100%;
+  font-weight: bold;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  border-right: none;
+}
+.bouton {
+  background-color: #0065fc;
+  font-weight: 600;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  border: solid #0065fc 1px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.icon_map {
+  background-color: #f2f2f2;
+  font-weight: 600;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*FILTRES*/
+
+#filtres {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.filtre {
+  border: 3px solid #f2f2f2;
+  border-radius: 25px;
+  padding: 4px;
+  border-left: none;
+  margin: 5px;
+}
+.filtre:hover {
+  background-color: rgb(255, 255, 255);
+  transform: translateY(-3px);
+}
+
+.circle {
+  background: #deebff;
+  color: #0065fc;
+  border-radius: 50px;
+  padding: 17px;
+  margin: -5px;
+}
+.cat {
+  display: flex;
+}
+.titre {
+  font-weight: bold;
+  padding: 9px;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  gap: 10px;
+}
+.infos .fa-solid {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border: 2px solid #f2f2f2;
+  color: #0065fc;
+  text-align: center;
+}
+
+/*HEBERGEMENT*/
+
+#hebergement {
+  display: flex;
+  justify-content: space-around;
+}
+#vignettes {
+  flex: 2;
+  height: 550px;
+  margin-right: 20px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.nom {
+  margin-left: 25px;
+}
+.bloc1,
+.bloc2,
+.bloc3,
+.bloc4,
+.bloc5,
+.bloc6 {
+  border-radius: 20px;
+  background-color: white;
+  padding: 5px;
+  min-width: 150px;
+  box-shadow: 0px 0px 10px 2px lightgray;
+  margin: 5px;
+  width: 30%;
+  height: 170px;
+}
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+  border-radius: 10px 10px 0px 0px;
+  height: 90px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ligne1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.ligne2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hotel {
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.prix {
+  margin-top: 4px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+}
+.bloc1:hover,
+.bloc2:hover,
+.bloc3:hover,
+.bloc4:hover,
+.bloc5:hover,
+.bloc6:hover,
+.bloc7:hover,
+.bloc8:hover,
+.bloc9:hover {
+  background-color: #deebff; /* color:lightgrey; */
+}
+.etoiles {
+  margin-top: 0px;
+  margin-left: 5px;
+  color: #0065fc;
+}
+.etoile {
+  margin-top: 0px;
+  margin-left: 5px;
+  color: #0065fc;
+}
+.euro {
+  font-weight: bold;
+}
+.gris {
+  color: lightgray;
+}
+.euro {
+  font-weight: 800;
+}
+/*POPULAIRES*/
+
+#populaire {
+  /*flex: 1;*/
+  width: 40%;
+  height: 550px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+.pop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+.bloc7,
+.bloc8,
+.bloc9 {
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  padding: 6px;
+  min-width: 150px;
+  box-shadow: 0px 0px 10px 2px #f2f2f2;
+  max-width: 768px;
+  width: 85%;
+  height: 115px;
+  margin: 20px;
+}
+
+.serie7,
+.serie8,
+.serie9 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image7,
+.image8,
+.image9 {
+  border-radius: 17px 0px 0px 17px;
+  height: 115px;
+  width: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+.image9 {
+  width: 97%;
+}
+.photo7,
+.photo8,
+.photo9 {
+  width: 100%;
+}
+.label7,
+.label8,
+.label9 {
+  padding: 6px;
+  flex-direction: column;
+  width: 300px;
+  display: block;
+}
+.label9 {
+  padding-left: 20px;
+}
+.onglet_hotel {
+  font-size: 16px;
+  margin: 0px;
+}
+.onglet_prix {
+  padding-top: 5px;
+  margin: 0px;
+}
+.onglet_etoile {
+  margin-top: 20px;
+  color: #0065fc;
+}
+.onglet_etoiles {
+  margin-top: 10px;
+  color: #0065fc;
+}
+.plus {
+  margin: -70px 0px 80px 30px;
+}
+
+/*ACTIVITES*/
+
+.titre_activites {
+  margin-left: 25px;
+}
+
+.colonne1 {
+  display: flex;
+  width: 100%;
+}
+.colonne2,
+.colonne3 {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.ligne3,
+.ligne4 {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  margin-right: -6px;
+}
+.serie10,
+.serie13 {
+  width: 100%;
+  border-radius: 26px;
+  box-shadow: 0px 0px 10px 2px #f2f2f2;
+  margin-left: 30px;
+}
+.serie12,
+.serie15 {
+  width: 250px;
+  height: 142px;
+  margin: 15px;
+  border-radius: 26px;
+  box-shadow: 0px 0px 10px 2px #f2f2f2;
+}
+.legende {
+  margin-left: 20px;
+}
+.photo10,
+.photo13 {
+  border-radius: 25px 25px 0px 0px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.serie13 {
+  margin-left: 15px;
+}
+.photo11,
+.photo12,
+.photo14,
+.photo15 {
+  border-radius: 25px 25px 0px 0px;
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.serie11,
+.serie14 {
+  width: 250px;
+  height: 142px;
+  margin: 15px;
+  border-radius: 26px;
+  box-shadow: 0px 0px 10px 2px #f2f2f2;
+}
+
+/*FOOTER*/
+
+#mentions {
+  display: flex;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+}
+.partie1,
+.partie2,
+.partie3 {
+  flex: 1;
+  margin-left: 30px;
+}
+.lien_mentions,
+.lien {
+  padding: 0px;
+  list-style-type: none;
+}
+.lien:hover {
+  color: #0065fc;
+}
+li {
+  margin-bottom: 10px;
+}

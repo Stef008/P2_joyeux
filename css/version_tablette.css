@@ -1,0 +1,152 @@
+@media screen and (max-width: 992px) {
+  /* HEADER */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #conteneur {
+    width: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .booki {
+    width: 150px;
+    padding-left: 45px;
+  }
+  .logo_booki {
+    display: flex;
+    justify-content: center;
+  }
+  .nav {
+    justify-content: space-around;
+    padding: 0px;
+  }
+  .listnav {
+    text-align: center;
+    width: 175px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .listnav:active {
+    border-bottom: 2px solid #0065fc;
+    padding-bottom: 20px;
+    color: #0065fc;
+  }
+  .listnav:hover {
+    border-bottom: 2px solid #0065fc;
+    padding-bottom: 20px;
+    color: #0065fc;
+  }
+  .menu:hover {
+    border-top: 2px solid white;
+  }
+  .barre {
+    width: 100%;
+  }
+
+  /* FILTRES */
+
+  #filtres {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  /* HEBERGEMENT */
+
+  #populaire {
+    width: 95%;
+  }
+  #hebergement {
+    flex-direction: column-reverse;
+  }
+  .infos {
+    padding-bottom: 10px;
+  }
+  .prix,
+  .etoile,
+  .etoiles {
+    font-size: 16px;
+  }
+  .etoile {
+    margin-top: 10px;
+  }
+  .pop {
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+  #populaire,
+  #vignettes {
+    margin: 0px;
+    width: 100%;
+  }
+  .label7,
+  .label8,
+  .label9 {
+    width: 150%;
+  }
+  .image7,
+  .image8,
+  .image9 {
+    width: 250px;
+  }
+  .bloc7,
+  .bloc8,
+  .bloc9 {
+    width: 90%;
+  }
+  .serie7,
+  .serie8,
+  .serie9 {
+    justify-content: space-between;
+    width: 100%;
+  }
+  #vignettes {
+    background-color: white;
+  }
+  .ligne1,
+  .ligne2 {
+    margin: 0;
+  }
+  .bloc2,
+  .bloc5 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .plus {
+    margin: 10px 0px 0px 60px;
+  }
+
+  /* ACTIVITES */
+
+  .colonne1 {
+    flex-direction: column;
+  }
+  .colonne2,
+  .colonne3 {
+    padding: 10px;
+  }
+  .ligne3,
+  .ligne4 {
+    justify-content: space-between;
+  }
+  .serie11,
+  .serie12,
+  .serie14,
+  .serie15 {
+    margin: 0px 0px 30px 0px;
+    width: 320px;
+  }
+  .serie10,
+  .serie13 {
+    margin-bottom: 20px;
+    width: 330px;
+  }
+  .serie10 {
+    margin-left: 18px;
+  }
+}
